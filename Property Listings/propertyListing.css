@@ -1,0 +1,17 @@
+#propertyImage{
+  width: 100%;
+}
+
+#imageWrapper{
+  display: inline-block;
+}
+
+#imageFloater{
+  float: left;
+  width: 50%;
+  margin-right: 60px;
+}
+
+#details{
+  margin-top: 50px;
+}

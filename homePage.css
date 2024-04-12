@@ -3,10 +3,6 @@ nav{
   float: left;
 }
 
-h4{
-  text-align: center;
-}
-
 nav, #mainInfo, #contactInfo{
   height: 100%;
 }
