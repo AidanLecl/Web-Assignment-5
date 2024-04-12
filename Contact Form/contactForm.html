@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="contactForm.css">
+  </head>
+  <body>
+    <div>
+      <h4>Contact Form</h4>
+      <p>Please enter all your information so we can find you a property you desire.</p>
+    </div>
+    <form action="#">
+      <label>First Name:</label>
+      <input type="text" name="firstNameInput">
+      <label>Last Name:</label>
+      <input type="text" name="lastNameInput">
+      <label>Phone Number:</label>
+      <input type="text" name="phoneNumInput">
+      <label>Email:</label>
+      <input type="email" name="emailInput">
+      <label>Select Type of House</label>
+      <input type="radio" name="houseTypeSelect" value="H">House
+      <input type="radio" name="houseTypeSelect" value="C">Condminium
+      <label>Enter Number of Rooms</label>
+      <input type="number" name="roomCount">
+      <label>Enter Number of Bathrooms</label>
+      <input type="number" name="bathroomCount">
+      <label>Enter Price Range</label>
+      Min:<input type="number" name="minPrice">
+      Max:<input type="number" name="maxPrice">
+      <label>Additional Comments</label>
+      <textarea name="additionalCommentsInput" cols="40" rows="30"></textarea>
+      <input type="submit" value="Submit Form">
+    </form>
+  </body>
+</html>
