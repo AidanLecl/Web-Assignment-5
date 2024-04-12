@@ -26,6 +26,10 @@ nav{
 }
 
 #contactInfo{
-  width: 20%;
+  width: 30%;
   float: right;
+}
+
+#agentPic{
+  width: 240px; height: 320px;
 }
