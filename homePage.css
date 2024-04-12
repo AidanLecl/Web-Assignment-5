@@ -1,0 +1,41 @@
+nav{
+  width: 20%;
+  float: left;
+}
+
+h4{
+  text-align: center;
+}
+
+nav, #mainInfo, #contactInfo{
+  height: 100%;
+}
+
+#logo{
+  width: 90px; height: 90px;
+  margin-right: 40px;
+  float: left;
+}
+
+#logoTitle{
+  height: 90px;
+  text-align: center;
+}
+
+#mainContent{
+  height: 500px;
+  clear: both;
+}
+
+#mainInfo{
+  width: 65%;
+}
+
+#contactInfo{
+  width: 30%;
+  float: right;
+}
+
+#agentPic{
+  width: 240px; height: 320px;
+}
