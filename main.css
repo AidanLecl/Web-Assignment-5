@@ -10,19 +10,32 @@ nav{
   float: left;
 }
 
+h4{
+  text-align: center;
+}
+
+nav, #mainInfo, #contactInfo{
+  height: 100%;
+}
+
 #logo{
   width: 90px; height: 90px;
   margin-right: 40px;
   float: left;
 }
 
+#logoTitle{
+  height: 90px;
+  text-align: center;
+}
+
 #mainContent{
-  clear: both;
   height: 500px;
+  clear: both;
 }
 
 #mainInfo{
-  width: 50%;
+  width: 65%;
 }
 
 #contactInfo{
