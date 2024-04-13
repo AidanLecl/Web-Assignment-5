@@ -5,3 +5,30 @@ p{
 h4{
   text-align: left;
 }
+
+a{
+  text-decoration: none;
+}
+
+#formArea{
+  padding-left: 150px; padding-bottom: 15px;
+  border: 10px solid;
+  border-color: rgb(173, 173, 173);
+}
+
+#submitButton{
+  display: block;
+  margin-left: 244px; margin-right: auto;
+}
+
+#backLink{
+  margin-top: 20px;
+}
+
+.normalTextInput{
+  width: 150px;
+}
+
+.normalNumInput{
+  width: 70px;
+}

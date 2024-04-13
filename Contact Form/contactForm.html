@@ -11,30 +11,33 @@
       <h3>Contact Form</h3>
     </div>
     <p>Please enter all your information so we can find you a property you desire.</p>
-    <form action="#">
-      <h4>Contact Information</h4>
-      <label>First Name:</label>
-      <input type="text" name="firstNameInput">
-      <label>Phone Number:</label>
-      <input type="text" name="phoneNumInput"><br><br>
-      <label>Last Name:</label>
-      <input type="text" name="lastNameInput">
-      <label>Email:</label>
-      <input type="email" name="emailInput"><br><br>
-      <h4>House Information</h4>
-      <label>Select Type of House</label><br><br>
-      <input type="radio" name="houseTypeSelect" value="H">House
-      <input type="radio" name="houseTypeSelect" value="C">Condminium<br><br>
-      <label>Enter Number of Rooms</label>
-      <input type="number" name="roomCount"><br><br>
-      <label>Enter Number of Bathrooms</label>
-      <input type="number" name="bathroomCount"><br><br>
-      <label>Enter Price Range</label><br><br>
-      Min:<input type="number" name="minPrice">
-      Max:<input type="number" name="maxPrice"><br><br>
-      <label>Additional Comments</label><br><br>
-      <textarea name="additionalCommentsInput" cols="70" rows="11"></textarea><br><br>
-      <input type="submit" value="Submit Form">
-    </form>
+    <div id="formArea">
+      <form action="#">
+        <h4>Contact Information</h4>
+        <label>First Name:</label>
+        <input type="text" name="firstNameInput" class="normalTextInput">
+        <label>Phone Number:</label>
+        <input type="text" name="phoneNumInput" class="normalTextInput"><br><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastNameInput" class="normalTextInput">
+        <label>Email:</label>
+        <input type="email" name="emailInput" class="normalTextInput"><br><br>
+        <h4>House Information</h4>
+        <label>Select Type of House</label><br><br>
+        <input type="radio" name="houseTypeSelect" value="H">House
+        <input type="radio" name="houseTypeSelect" value="C">Condminium<br><br>
+        <label>Enter Number of Rooms:</label>
+        <input type="number" name="roomCount" class="normalNumInput"><br><br>
+        <label>Enter Number of Bathrooms:</label>
+        <input type="number" name="bathroomCount" class="normalNumInput"><br><br>
+        <label>Enter Price Range</label><br><br>
+        Min: <input type="number" name="minPrice" class="normalNumInput">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Max: <input type="number" name="maxPrice" class="normalNumInput"><br><br>
+        <h4>Additional Comments</h4>
+        <textarea name="additionalCommentsInput" cols="70" rows="11"></textarea><br><br>
+        <input type="submit" value="Submit Form" id="submitButton">
+      </form>
+    </div>
+    <div id="backLink"><a href="../index.html">Return</a></div>
   </body>
 </html>
