@@ -26,23 +26,24 @@ h3{
   line-height: 50px;
 }
 
-#backLink{
+.backLink{
   text-align: center;
   margin-top: 30px;
 }
 
-#backLink a{
+.backLink a{
   display: block;
   width: 80px; height: 25px;
   margin-left: auto; margin-right: auto;
   color: rgb(255, 255, 255);
   background-color: rgb(68, 68, 68);
+  padding-top: 4px;
 }
 
-#backLink a:link, #backLink a:visited{
+.backLink a:link, .backLink a:visited{
   text-decoration: none;
 }
 
-#backLink a:hover{
-  background-color: rgb(80, 80, 80);
+.backLink a:hover{
+  background-color: rgb(104, 104, 104);
 }
