@@ -1,17 +1,19 @@
+p{
+  grid-row: 1; grid-column: 2;
+  margin-left: 40px; margin-top: auto; margin-bottom: auto;
+}
+
+#title{
+  margin-bottom: 50px;
+}
+
 #propertyImage{
-  width: 100%;
-}
-
-#imageWrapper{
-  display: inline-block;
-}
-
-#imageFloater{
-  float: left;
-  width: 50%;
-  margin-right: 60px;
+  grid-row: 1; grid-column: 1;
+  margin-top: 10px; margin-left: 10px;
 }
 
 #details{
-  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 270px;
 }
