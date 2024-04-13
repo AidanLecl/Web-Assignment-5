@@ -1,0 +1,37 @@
+#linkList{
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px;
+}
+
+#contactFormLink a{
+  width: 130px;
+  grid-column: 1; grid-row: 1;
+}
+
+#availableListingsLink a{
+  width: 154px;
+  grid-column: 3; grid-row: 1;
+}
+
+#homeLink a{
+  width: 80px;
+  grid-column: 2; grid-row: 1;
+}
+
+#pLink1 a{
+  grid-column: 1; grid-row: 2;
+}
+
+#pLink2 a{
+  grid-column: 2; grid-row: 2;
+}
+
+#pLink3 a{
+  grid-column: 3; grid-row: 2;
+}
+
+.property a{
+  width: 110px;
+}
