@@ -8,14 +8,14 @@ nav, #mainInfo, #contactInfo{
 }
 
 #logo{
-  width: 90px; height: 90px;
-  margin-right: 40px;
   float: left;
 }
 
 #logoTitle{
   height: 90px;
+  line-height: 90px;
   text-align: center;
+  background-color: rgb(173, 173, 173);
 }
 
 #mainContent{
